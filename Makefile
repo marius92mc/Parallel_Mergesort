@@ -22,10 +22,6 @@ JC = javac
 #         SortingThreadPool.class      \
 #         SortTask.class
 
-# this target entry builds the IndexFiles class
-# the IndexFiles.class file is dependent on the IndexFiles.java file
-# and the rule associated with this entry gives the command to create it
-#
 default:
 	@echo "Compiling .java..."
 	@$(JC) *.java
