@@ -12,3 +12,22 @@
 
 ##### Clean
     $ make clean
+
+
+### Indian grammar, derivation of a given word
+
+#### Compiling indian grammar file
+    $ g++ -std=c++0x -pthread -o indian_grammar indian_grammar_derivation_of_string.cpp
+
+#### Run
+    $ ./indian_grammar 
+
+##### Example of input file 
+grammar.in 
+4
+S AA
+A aA
+A bA
+A e
+
+aAaA
