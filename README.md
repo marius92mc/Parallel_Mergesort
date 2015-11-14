@@ -24,11 +24,11 @@
 
 ##### Example of input file 
 grammar.in <br /> 
-4
-S AA
-A aA
-A bA
-A e
-
+4 <br />
+S AA <br />
+A aA <br />
+A bA <br />
+A e <br />
+<br />
 aAaA 
 
