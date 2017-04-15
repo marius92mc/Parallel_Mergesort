@@ -1,26 +1,33 @@
 # Parallel Mergesort
 
-##### Compile
+### Build
     $ make
 
-##### Run
+### Run
+
     $ java MergeSortInParallel flags
-    Where flags could be n,    where n represents the number of elements
-                         -show, to show the elements 
-                         -threads number_of_threads, where n represents the number of threads to spawn 
+
+where flags could be 
+- n, where n represents the number of elements
+- `-show`, to show the elements 
+- `-threads <numberOfThreads>`.
 
 
-##### Clean
+### Clean
+
     $ make clean
 
-<br /> <br /> <br />
-### Indian grammar, derivation of a given word
 
-##### Compiling indian grammar file
+## Indian grammar, derivation of a given word
+
+### Compiling indian grammar file
+
     $ g++ -std=c++0x -pthread -o indian_grammar indian_grammar_derivation_of_string.cpp
 
-##### Run
+### Run
+
     $ ./indian_grammar 
+
 
 ##### Example of input file 
 grammar.in <br /> 
