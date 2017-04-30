@@ -1,5 +1,7 @@
 # Parallel Mergesort
 
+[![Build Status](https://travis-ci.org/marius92mc/parallel-mergesort.svg?branch=master)](https://travis-ci.org/marius92mc/parallel-mergesort)
+
 ### Build
     $ make
 
