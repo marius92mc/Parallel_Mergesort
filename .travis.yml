@@ -1,0 +1,5 @@
+language: Java
+sudo: required 
+
+script: cd src/; javac *.java 
+
